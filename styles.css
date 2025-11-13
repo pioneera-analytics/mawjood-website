@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    background: #f7f9fa;
+    color: #1c2c33;
+    text-align: center;
+}
+
+.header {
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+}
+
+.cta {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.cta input {
+    padding: 12px;
+    width: 260px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.cta button {
+    padding: 12px 20px;
+    background: #007786;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+    background: #005f6a;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 40px;
+    background: #e4eef0;
+}
